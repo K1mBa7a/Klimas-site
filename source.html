@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <title>NL-Klimas.com</title>
+</head>
+<body>
+    <section class="header">
+        <nav> 
+            
+            <div class="nav-links"id="navLinks">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                <a href=""></a>
+                <ul>
+                    <Button type="button" class="btnLoging">Login</Button>
+                
+                    <li><a href="#1">Начало</a><li>
+                    <li><a href="#2">Климатици</a></li>
+                    <li><a href="#3">Контакти</a></li>
+                    <li><a href="#4">Поддръжка</a></li>
+
+                </ul>
+            </div>
+            <div class="search">
+                <input class="srch" type="search"name=""placeholder="Търсачка">
+                <a href="#5"><button class="btn">Търси</button></a>
+            </div>
+            
+            <i class="fa-sort-desc"onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Климатици Nqkva firma</h1>
+            <p>
+                Фирма NQKVA е от 20 години в бранша за монтаж , демонтаж или профилактика на дадена марка климатик !<br>
+                Има сервизи и поддръжка в Пловдивска област!  
+            </p> 
+            <a href="" class="hero-btn">Посети ни тук!</a> 
+        </div>
+      
+
+    </section>
+
+
+
+
+
+
+    <!---shiban container za login (probably NEVER)---->
+   <!---- <div class="container">
+        <div class="MAIN-boxforlogin">
+            <h1>Login</h1>
+            <form action="">
+                <div class="input-box">
+                    <span class="icon"><i class='bx bx-envelope'></i></span>
+                    <input type="email"required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class='bx bx-envelope'></i></span>
+                    <input type="Password"required>
+                    <label>password</label>
+                </div>
+            </form>
+        </div>
+    </div>
+>
+
+
+
+
+
+
+
+    <!--- menuto na HOME-->>
+    <section class="home"><!---Начало--->
+     <h1>Какво предлагаме ?</h1>
+     <p>Фирма NQKVA.ООД</p>
+     
+     
+     
+     
+     <div class="row">
+        <div class="home-col">
+            <h2>Монтаж</h2>
+            <p>Монтиране на външното и вътрешното тяло!</p>
+        </div>
+        <div class="home-col">
+            <h2>Демонтаж</h2>
+            <p>Демонтиране на външното и вътрешното тяло!</p>
+        </div>
+        <div class="home-col">
+            <h2>Профилактика</h2>
+            <p>Почистване и проверка на климатика дали е в добро състояние !</p>
+        </div>
+        <div class="home-col">
+            <h2>Климатици</h2>
+            <p>Покупка или план за закупуването на климатик !</p>
+        </div>
+     </div>
+    </section>
+  
+  
+  
+  
+  
+    <!-- menuto za klimaticite-->
+    <section class="klimas">
+     <h2>Kлиматици</h2>
+     <p>Висок клас климатици</p>
+     <div class="row">
+        <div class="klimas-col">
+            <img src="images/1.klimatik.png">
+            <div class="layer">
+                
+            </div>
+        </div>
+        <div class="klimas-col">
+            <img src="images/2.klimatik.png">
+            <div class="layer">
+                
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+
+
+
+
+    <!---menuto za kontaktite-->
+    <section class="contacts">
+     <h4>Контакти</h4>
+     <p>В град Карлово</p>
+     <div class="row">
+        <div class="contacts-col">
+            <img src="images/YOU.jpg">
+            <h1>човек#1</h1>
+            <p>информация на #1</p>
+        </div>
+    
+    
+        <div class="contacts-col">
+            <img src="images/YOU.jpg">
+            <h1>gosho</h1>
+            <p>информация на gosho</p>
+        </div>
+   
+    
+        <div class="contacts-col">
+            <img src="images/YOU.jpg">
+            <h1>Mitio</h1>
+            <p>информация на Mitio</p>
+        </div>
+    </div>
+    
+    </section>
+
+
+
+
+
+
+
+    <!--- menuto na saita da sa open\close .... minus animaciq(ZA SMQNA)---->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu()
+        {
+            navLinks.style.right="0";
+        }
+        function hideMenu()
+        {
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
